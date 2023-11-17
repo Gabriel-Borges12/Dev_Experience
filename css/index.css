@@ -12,6 +12,10 @@
   --Black: #0D000D;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -461,9 +465,7 @@ button:focus {
 
 .linhazinha {
   width: 70%;
-  /* ou qualquer valor que você desejar */
   border: 1px solid #fff;
-  /* ou qualquer estilo de borda desejado */
 }
 
 .imagemlogo {
@@ -476,4 +478,39 @@ button:focus {
   margin-right: 60px;
   width: 550px;
   border: 2px solid #F2F2F2;
+}
+
+/* fim infos */
+
+/* infos 2 */
+
+.text-1 {
+background-image: url(../img/fundo-futurista.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+display: flex;
+text-align: center;
+justify-content: center;
+width: 100%;
+}
+
+.box-text {
+background-color:#0d000d98;
+color: #fff;
+border-radius: 10px;
+margin: 10%;
+}
+
+.box-text p {
+margin: 2%;
+text-align: justify;
+}
+
+.linha {
+  width: 40%;
+  margin: 1% auto;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

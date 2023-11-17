@@ -20,6 +20,7 @@ body{
 a{
     text-decoration: none;
 }
+
 header{
     background-color: #0D000D;
     height: 120px;
@@ -52,7 +53,7 @@ header{
     display: flex;
     flex-direction: row;
 }
-li a{
+.sessions li a{
     color: #F2F2F2;
     padding-right: 50px;
 }

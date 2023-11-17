@@ -1,0 +1,70 @@
+/*header*/
+:root{
+    LPurple: #A080BF;
+    DPurple: #220126;
+    BluePurple: #44428C;
+    White: #F2F2F2;
+    Black: #0D000D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #0D000D;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headContent{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+#logo1{
+    width: 150px;
+}
+
+.sessions{
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+.sessions ul{
+    display: flex;
+    flex-direction: row;
+}
+li a{
+    color: #F2F2F2;
+    padding-right: 50px;
+}
+.logarConta{
+    margin-left: 500px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.log a{
+    color: #F2F2F2;
+}

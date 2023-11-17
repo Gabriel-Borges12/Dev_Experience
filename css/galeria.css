@@ -5,6 +5,11 @@
     --card-height: 300px;
     --card-transition-duration: 800ms;
     --card-transition-easing: ease;
+    --LPurple: #A080BF;
+    --DPurple: #220126;
+    --BluePurple: #44428C;
+    --White: #F2F2F2;
+    --Black: #0D000D;
 }
 
 * {
@@ -14,7 +19,65 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body {
+
+/* header */
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #0D000D;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headContent{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+#logo1{
+    width: 150px;
+}
+
+.sessions{
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+.sessions ul{
+    display: flex;
+    flex-direction: row;
+}
+.sessions li a{
+    color: #F2F2F2;
+    padding-right: 50px;
+}
+.logarConta{
+    margin-left: 500px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.log a{
+    color: #F2F2F2;
+}
+/* fim do header */
+
+/* galeria de imagens */
+
+  .galery {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -23,9 +86,6 @@ body {
     background: rgba(0, 0, 0, 0.787);
     overflow: hidden;
   }
-
-
-/* galeria de imagens */
 
   button {
     border: none;

@@ -11,6 +11,44 @@
 </head>
 <body>
 
+
+<header>
+        <nav class="navbar">
+            <div class="headContent">
+                <div class="navigation">
+                    <div class="logo"><a class="navbar-logo" href="index.php">
+                            <img src="img/logodeitada_recorte.png" alt="Logo DevExperience" description="Logo DevExperience"
+                                id="logo1">
+                        </a></div>
+                    <div class="sessions">
+                        <ul>
+                            <li><a href="galeria.php">Edições</a></li>
+                            <li><a href="vencedores.php">Vencedores</a></li>
+                            <li><a href="evento.php">Evento</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="log">
+                    <?php
+                    if (!isset($_SESSION["usuario_id"])) {
+                        echo "<div class='logarConta'>";
+                        echo "<a href='logar.php'>Logar</a>";
+                        echo "</div>";
+                    }
+                    if (isset($_SESSION["usuario_id"])) {
+                        echo "<div class='logarConta'>";
+                        echo "<a href='logout.php'>Sair</a>";
+                        echo "</div>";
+                    }
+                    ?>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+<div class="galery">
 <!-- galeria de imagens -->
 <div class="app">
 	<div class="cardList">
@@ -56,19 +94,19 @@
 			<div class="info current--info">
 				<h1 class="text name">Dev expirience</h1>
 				<h4 class="text location">Senai</h4>
-				<p class="text description">Modulo 1</p>
+				<p class="text description">exemplo</p>
 			</div>
 
 			<div class="info next--info">
 				<h1 class="text name">Dev expirience</h1>
 				<h4 class="text location">Senai</h4>
-				<p class="text description">Modulo 2</p>
+				<p class="text description">exemplo</p>
 			</div>
 
             <div class="info previous--info">
 				<h1 class="text name">Dev expirience</h1>
 				<h4 class="text location">Senai</h4>
-				<p class="text description">Modulo 3</p>
+				<p class="text description">exemplo</p>
 			</div>
 		</div>
 	</div>
@@ -110,6 +148,7 @@
   <script  src="./galeria.js"></script>
 
 <!-- fim da galeria de imagens -->
+</div>
     
 </body>
 </html>

@@ -58,7 +58,7 @@ header{
     padding-right: 50px;
 }
 .logarConta{
-    margin-left: 500px;
+    margin-left: 600px;
 }
 .log{
     display: flex;
@@ -68,4 +68,48 @@ header{
 }
 .log a{
     color: #F2F2F2;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+.edition{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3%;
+}
+.edition img{
+    width: 450px;
+}
+
+.subs{
+    margin-left:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subs a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F2F2F2;
+    background-color: #44428C;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #220126;
+}
+
+.subs a:hover{
+    background-color: #220126;
+    border: 2px solid #44428c;
 }

@@ -34,28 +34,28 @@
             </div>
             <div class="container">
 
-                <form id="cadastro-form" method="post" action="processar_login.php">
+                <form id="cadastro-form" method="post" action="processar_inscricao.php">
                     <h1 id="logintitulo">Inscrever-se</h1>
                     <label>Qual é o nome da equipe? (Exemplo: Equipe Alfa Beta)</label>
                     <img id="img-user" src="img/people.png">
-                    <input type="text" class="formzao" name="user" 
-                        autocomplete="off" id="usuario">
+                    <input type="text" class="formzao" name="nome_equipe" 
+                        autocomplete="off" id="nome_equipe">
                     <label>Digite o nome completo de cada integrante da equipe.</label>
                     <img id="img-user" src="img/name.png">
-                    <input type="text" class="formzao" name="user"
-                        autocomplete="off" id="usuario">
+                    <input type="text" class="formzao" name="nome_integrantes"
+                        autocomplete="off" id="nome_integrantes">
                     <label>Qual a idade atual de cada participante?</label>
                     <img id="img-user" src="img/age.png">
-                    <input type="text" class="formzao" name="user" 
-                        autocomplete="off" id="usuario">
+                    <input type="text" class="formzao" name="idade_integrantes" 
+                        autocomplete="off" id="idade_integrantes">
                     <label>Qual é o CPF de cada participante da equipe?</label>
                     <img id="img-user" src="img/cpf.png">
-                    <input type="text" class="formzao" name="user" 
-                        autocomplete="off" id="usuario">
+                    <input type="text" class="formzao" name="cpf_integrantes" 
+                        autocomplete="off" id="cpf_integrantes">
                     <label>Qual o e-mail corporativo ou pessoal de cada integrante da equipe?</label>
                     <img id="img-user" src="img/email.png">
-                    <input type="text" class="formzao" name="user" 
-                        autocomplete="off" id="usuario">
+                    <input type="text" class="formzao" name="email_integrantes" 
+                        autocomplete="off" id="email_integrantes">
 
 
                     <!-- <input type="button" value="" href="home.html"> -->

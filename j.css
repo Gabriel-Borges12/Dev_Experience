@@ -5,3 +5,8 @@
     White: #F2F2F2;
     Black: #0D000D;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}

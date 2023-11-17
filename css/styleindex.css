@@ -4,7 +4,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(138, 7, 145) 0% 50%, rgb(241, 239, 239) 50% 100%);
+    background: linear-gradient(90deg, 0% 50%, rgb(241, 239, 239) 50% 100%);
     font-family: Arial, sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 input {
@@ -20,9 +20,13 @@ input {
     padding: 8px;
     padding-left: 30px !important;
     margin-bottom: 10px;
-    border: 6px solid #CD90FE;
+    border: 6px solid #A080BF;
     border-radius: 5px;
-    background-color: #CD90FE;
+    background-color: #A080BF;
+    color: white;
+}
+
+input::placeholder {
     color: white;
 }
 
@@ -66,27 +70,27 @@ input {
 
 #botaologin {
     cursor: pointer;
-    background: #CD90FE;
+    background: #A080BF;
     padding: 8px 5px;
     color: #fff;
     border: 1px solid #3274e7;
     margin-bottom: 10px;
     border-radius: 5px;
     outline: none;
-    width: 95%;
-    margin-top: 4px;
+    width: 75%;
+    margin-top: 8px;
     padding: 10px;
     border: none;
 }
 
 #botaologin:hover {
-    background-color: #a25fda;
+    background-color: #44428c;
     transition: background-color 0.3s ease;
 }
 
 #botaocadastro {
     cursor: pointer;
-    background: #CD90FE;
+    background: #A080BF;
     padding: 8px 5px;
     color: #fff;
     border: 1px solid #3274e7;
@@ -100,7 +104,7 @@ input {
 }
 
 #botaocadastro:hover {
-    background-color: #a25fda;
+    background-color: #A080BF;
     transition: background-color 0.3s ease;
 }
 
@@ -109,7 +113,7 @@ input {
 }
 
 #logologin1 {
-    width: 180px;
+    width: 200px;
 
 }
 
@@ -170,7 +174,7 @@ input {
     height: 75%;
     padding: 15px;
     padding-top: 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     margin-left: 30px;
@@ -182,6 +186,7 @@ input {
 
 .main {
     display: flex;
+
 }
 
 .cadastre-se {
@@ -210,11 +215,12 @@ input {
 
 .lado-esq {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    background: linear-gradient(#a87cd4, #44428c);
 }
 
 .lado-dir {
@@ -259,7 +265,7 @@ input[type="select"] {
     }
 
     body {
-        background: #a25fda !important;
+        background: #A080BF !important;
     }
 
     #logologin {
@@ -288,7 +294,7 @@ input[type="select"] {
     }
 
     body {
-        background: #a25fda !important;
+        background: #A080BF !important;
     }
 
     #logologin {
@@ -315,7 +321,7 @@ input[type="select"] {
     }
 
     body {
-        background: #a25fda !important;
+        background: #A080BF !important;
     }
 
 }
@@ -366,7 +372,7 @@ input[type="select"] {
 }
 
 #botao-salvar-senha:hover {
-    background-color: #a25fda;
+    background-color: #A080BF;
     transition: background-color 0.3s ease;
 
 }
@@ -376,5 +382,5 @@ input[type="select"] {
 }
 
 .vparalogin:hover {
-    color: #570e93;
+    color: #44428c
 }

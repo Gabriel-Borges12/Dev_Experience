@@ -24,8 +24,8 @@
 						</a></div>
 					<div class="sessions">
 						<ul>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#modulo">Módulos</a></li>
+							<li><a href="#sobre">Sobre</a></li>
+							<li><a href="#modulo">Módulos</a></li>
 							<li><a href="#edicoes">Edições</a></li>
 							<li><a href="#vencedores">Vencedores</a></li>
 
@@ -46,6 +46,9 @@
 					}
 					?>
 				</div>
+				<div class="subs">
+                    <a href="inscrever.php">Inscrever-se</a>
+                </div>
 			</div>
 		</nav>
 	</header>
@@ -184,37 +187,54 @@
 				</div>
 			</div>
 
-            <div class="text-1" id="modulo">
-<div class="box-text">
-<h1>Módulos da Competição.</h1>
-<div class="linha"></div>
-<h3>Módulo A: Programação de aplicações web.</h3>
-<p>No módulo A, espera-se que o estudante implemente soluções web responsivas que atendam demandas
-específicas do mercado de trabalho. A avaliação dos resultados será realizada de acordo com os critérios
-de qualidade de software previstos na ISO/IEC 25010: Eficiência, responsividade, acessibilidade,
-memorabilidade, manutenibilidade e confiabilidade. Este módulo visa não apenas testar a
-proficiência técnica dos estudantes, mas também incentivar a criação de aplicações web que atendam
-às demandas específicas do mercado de trabalho atual.</p>
+			<div class="text-1" id="modulo">
+				<div class="box-text">
+					<h1>Módulos da Competição.</h1>
+					<div class="linha"></div>
+					<h3>Módulo A: Programação de aplicações web.</h3>
+					<p>No módulo A, espera-se que o estudante implemente soluções web responsivas que atendam demandas
+						específicas do mercado de trabalho. A avaliação dos resultados será realizada de acordo com os
+						critérios
+						de qualidade de software previstos na ISO/IEC 25010: Eficiência, responsividade, acessibilidade,
+						memorabilidade, manutenibilidade e confiabilidade. Este módulo visa não apenas testar a
+						proficiência técnica dos estudantes, mas também incentivar a criação de aplicações web que
+						atendam
+						às demandas específicas do mercado de trabalho atual.</p>
 
-<h3>Módulo B: Infraestrutura e Segurança Cibernética</h3>
-<p>No módulo B, espera-se que o estudante adote boas práticas de programação que objetivem mitigar
-o risco de ataques cibernéticos e exploração de vulnerabilidades de segurança. O estudante deverá
-ainda ser capaz de analisar arquivos de tráfego malicioso de redes de computadores demonstrando
-conhecimento prático de investigação de incidentes para detecção de anomalias. A avaliação será
-realizada com base na eficácia das medidas de segurança implementadas e resultados obtidos após a
-análise.</p>
+					<h3>Módulo B: Infraestrutura e Segurança Cibernética</h3>
+					<p>No módulo B, espera-se que o estudante adote boas práticas de programação que objetivem mitigar
+						o risco de ataques cibernéticos e exploração de vulnerabilidades de segurança. O estudante
+						deverá
+						ainda ser capaz de analisar arquivos de tráfego malicioso de redes de computadores demonstrando
+						conhecimento prático de investigação de incidentes para detecção de anomalias. A avaliação será
+						realizada com base na eficácia das medidas de segurança implementadas e resultados obtidos após
+						a
+						análise.</p>
 
-<h3>Módulo C: Inovação Tecnológica</h3>
-<p>No Módulo C, Inovação Tecnológica, espera-se que os participantes explorem sua criatividade e
-habilidades de resolução de problemas para propor soluções inovadoras e disruptivas. Neste módulo,
-espera-se que os estudantes identifiquem desafios relevantes no campo da tecnologia e proponham
-soluções inovadoras. A avaliação será realizada com base na originalidade, viabilidade técnica e
-potencial impacto positivo na indústria, dentro dos diferentes tipos de inovação - produtos,
-serviços, processos e marketing – tendo como referência as temáticas de: tecnologia da informação,
-empreendedorismo e sustentabilidade (ambiental e/ou social).</p>
-</div>
-</div>
-
+					<h3>Módulo C: Inovação Tecnológica</h3>
+					<p>No Módulo C, Inovação Tecnológica, espera-se que os participantes explorem sua criatividade e
+						habilidades de resolução de problemas para propor soluções inovadoras e disruptivas. Neste
+						módulo,
+						espera-se que os estudantes identifiquem desafios relevantes no campo da tecnologia e proponham
+						soluções inovadoras. A avaliação será realizada com base na originalidade, viabilidade técnica e
+						potencial impacto positivo na indústria, dentro dos diferentes tipos de inovação - produtos,
+						serviços, processos e marketing – tendo como referência as temáticas de: tecnologia da
+						informação,
+						empreendedorismo e sustentabilidade (ambiental e/ou social).</p>
+				</div>
+			</div>
+			<div class="edicoes">
+				<div class="title">
+					<h1>Edição 2023</h1>
+				</div>
+				<div class="linha"></div>
+				<div class="edition">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+				</div>
+			</div>
 		</div>
 
 	</main>

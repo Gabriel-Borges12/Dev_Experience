@@ -24,9 +24,11 @@
 						</a></div>
 					<div class="sessions">
 						<ul>
-							<li><a href="galeria.php">Edições</a></li>
-							<li><a href="vencedores.php">Vencedores</a></li>
-							<li><a href="evento.php">Evento</a></li>
+							<li><a href="#sobre">Sobre</a></li>
+							<li><a href="#modulo">Módulos</a></li>
+							<li><a href="#edicoes">Edições</a></li>
+							<li><a href="#vencedores">Vencedores</a></li>
+
 						</ul>
 					</div>
 				</div>
@@ -34,7 +36,7 @@
 					<?php
 					if (!isset($_SESSION["usuario_id"])) {
 						echo "<div class='logarConta'>";
-						echo "<a href='login.php'>Logar</a>";
+						echo "<a href='logar.php'>Logar</a>";
 						echo "</div>";
 					}
 					if (isset($_SESSION["usuario_id"])) {
@@ -44,6 +46,9 @@
 					}
 					?>
 				</div>
+				<div class="subs">
+                    <a href="inscrever.php">Inscrever-se</a>
+                </div>
 			</div>
 		</nav>
 	</header>
@@ -158,7 +163,7 @@
 
 				<!-- fim da galeria de imagens -->
 			</div>
-			<div class="sobre">
+			<div class="sobre" id="sobre">
 				<div class="text">
 					<h1>SENAI Dev Experience</h1>
 					<div class='linhazinha'></div>
@@ -181,8 +186,89 @@
 					<img src="img/SENAI_logodeitado.png" alt="">
 				</div>
 			</div>
+
+			<div class="text-1" id="modulo">
+				<div class="box-text">
+					<h1>Módulos da Competição.</h1>
+					<div class="linha"></div>
+					<h3>Módulo A: Programação de aplicações web.</h3>
+					<p>No módulo A, espera-se que o estudante implemente soluções web responsivas que atendam demandas
+						específicas do mercado de trabalho. A avaliação dos resultados será realizada de acordo com os
+						critérios
+						de qualidade de software previstos na ISO/IEC 25010: Eficiência, responsividade, acessibilidade,
+						memorabilidade, manutenibilidade e confiabilidade. Este módulo visa não apenas testar a
+						proficiência técnica dos estudantes, mas também incentivar a criação de aplicações web que
+						atendam
+						às demandas específicas do mercado de trabalho atual.</p>
+
+					<h3>Módulo B: Infraestrutura e Segurança Cibernética</h3>
+					<p>No módulo B, espera-se que o estudante adote boas práticas de programação que objetivem mitigar
+						o risco de ataques cibernéticos e exploração de vulnerabilidades de segurança. O estudante
+						deverá
+						ainda ser capaz de analisar arquivos de tráfego malicioso de redes de computadores demonstrando
+						conhecimento prático de investigação de incidentes para detecção de anomalias. A avaliação será
+						realizada com base na eficácia das medidas de segurança implementadas e resultados obtidos após
+						a
+						análise.</p>
+
+					<h3>Módulo C: Inovação Tecnológica</h3>
+					<p>No Módulo C, Inovação Tecnológica, espera-se que os participantes explorem sua criatividade e
+						habilidades de resolução de problemas para propor soluções inovadoras e disruptivas. Neste
+						módulo,
+						espera-se que os estudantes identifiquem desafios relevantes no campo da tecnologia e proponham
+						soluções inovadoras. A avaliação será realizada com base na originalidade, viabilidade técnica e
+						potencial impacto positivo na indústria, dentro dos diferentes tipos de inovação - produtos,
+						serviços, processos e marketing – tendo como referência as temáticas de: tecnologia da
+						informação,
+						empreendedorismo e sustentabilidade (ambiental e/ou social).</p>
+				</div>
+			</div>
+			<div class="edicoes">
+				<div class="title">
+					<h1>Edição 2023</h1>
+				</div>
+				<div class="linha"></div>
+				<div class="edition">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+					<img src="https://i.ytimg.com/vi/J6lrVTrVHK4/maxresdefault.jpg" alt="">
+				</div>
+			</div>
 		</div>
+
 	</main>
+    
+    <footer>
+        <div class="conteudogeral">
+            <div class="conteudo1">
+                <img id="logofooter" src="img/logo_original_sombra.png">
+            </div>
+            <div class="conteudo2">
+                <h4>Links Importantes</h4><br>
+                <ul class="linksfooter">
+                <li><a class="linksimportantes" href="funcionalidades.php">Sobre Nós</a></li>
+                <li><a class="linksimportantes" id="linksimportantes" href="img/Termos.pdf" target="_blank">Módulos</a></li>
+                    <li><a class="linksimportantes" href="#">Galeria</a></li>
+
+            </div>
+            <div class="conteudo3">
+                <h4>Siga nossas redes sociais!</h4>
+                <div class="social-icons">
+                    <!-- ícones encontrados no site icons8.com.br -->
+                    <a href="https://www.sp.senai.br/" class="social-icon"><img
+                            src="img/icons8-facebook-48.png" alt="Facebook"></a>
+                    <a href="https://www.sp.senai.br/" class="social-icon"><img
+                            src="img/icons8-twitter-48 (1).png" alt="Twitter"></a>
+                    <a href="https://www.sp.senai.br/" class="social-icon"><img src="img/icons8-instagram-50 (1).png"
+                            alt="Instagram"></a>
+                    <br><br>
+                    <h5>Dúvidas ou sugestões?</h5>
+                    <a href="#" class="linkemail">emailaqui@gmail.com</a><br>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
